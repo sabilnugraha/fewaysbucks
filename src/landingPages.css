@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+
+.App {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.button {
+  display: flex;
+  justify-content: end;
+}
+
+.buttonLogin {
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  color: red;
+  width: 120px;
+  border-color: red;
+}
+
+.buttonRegister {
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  color: white;
+  width: 120px;
+  border-color: white;
+  background-color: red;
+}
+
+.modal {
+  color: red;
+}
+
+.statusTransaction {
+  color: rgb(80, 242, 253);
+  background-color: rgb(80, 242, 253, 0, 75);
+  font-size: 10px;
+}
+
+.cartTransaction {
+  border-radius: 10px;
+    background: #ffffff;
+      box-shadow: 20px 20px 60px #d9d9d9,
+        -20px -20px 60px #ffffff;
+}
+
+.miniText {
+  font-size: 10px;
+}
+
+.poppingCheck:checked + label::after {
+  content: url(./assets/ApproveIcon.png);
+  margin-bottom: 2px;
+  position: absolute;
+}
+
+.profilAccount {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: 5px solid brown;
+}
+
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-contentBucket {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.dropdown-contentBucket a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-contentBucket a:hover {
+  background-color: #ddd;
+}
+
+.dropdownBucket-btn:hover .dropdown-contentBucket {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.success {
+  color: green !important;
+}
+
+.waiting {
+  color: orange !important;
+}
+
+.cancel {
+  color: red !important;
+}
+
+.way {
+  color: lightblue !important;
+}
+
+.transbg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.transtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* width: 900px; */
+}
+
+.transtext>p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(44, 196, 44);
+  border: none;
+}
